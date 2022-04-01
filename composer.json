@@ -1,0 +1,23 @@
+{
+  "name": "smplphp/meta-skeleton",
+  "description": "A simple modern PHP meta skeleton library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Ollie Read",
+      "email": "smpl@ollie.codes"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Smpl\\Meta\\Skeleton\\": "src/"
+    }
+  }
+}
